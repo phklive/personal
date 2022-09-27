@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+  overscroll-behavior: none;
+  background-image: url("/bg5.png");
+}
+
+.headerbg {
+  background-image: url("/headerbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clear {
+  background-color: rgba(20, 20, 20, 0.6);
+}
+
+.nabla {
+  font-family: "Cinzel", cursive;
+}
