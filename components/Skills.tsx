@@ -25,7 +25,7 @@ const Skill: React.FC<SkillProps> = ({ skill }) => {
   return (
     <div className="col-span-1 flex flex-col items-center justify-center">
       <Image src={skill.image} alt={skill.title} width={50} height={50} />
-      <h1 className="text-2xl text-white nabla mt-2">{skill.title}</h1>
+      <h1 className="text-2xl text-white font-bold mt-2">{skill.title}</h1>
     </div>
   );
 };

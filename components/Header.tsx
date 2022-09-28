@@ -15,7 +15,7 @@ const Header = () => {
             className="rounded-xl shadow-2xl"
           />
         </div>
-        <div className="flex-1 text-white -ml-8 z-10">
+        <div className="flex-1 text-white ml-8 z-10">
           <span className="text-2xl md:text-4xl">Hey, my name is</span>
           <br />
           <span className="text-4xl md:text-7xl font-bold">
@@ -28,11 +28,12 @@ const Header = () => {
             <TypeWriter
               options={{
                 strings: [
-                  "I'm a dreamer.",
-                  "I'm a builder.",
-                  "I'm a fullstack developer.",
-                  "I'm a problem solver.",
-                  "I'm an innovator.",
+                  "I'm a dreamer",
+                  "I'm a builder",
+                  "I'm a fullstack developer",
+                  "I'm a consultant",
+                  "I'm a problem solver",
+                  "I'm an innovator",
                 ],
                 autoStart: true,
                 loop: true,

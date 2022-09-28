@@ -14,19 +14,21 @@ const Home: NextPage = () => {
     <div className="flex flex-col">
       <Header />
       <h1 className="text-3xl md:text-5xl text-white text-center nabla my-14">
-        Coding is my passion, my art, my sword.
+        Coding is my passion, my art, my sword
       </h1>
       <Values values={values} />
       <h1 className="text-3xl md:text-5xl text-white text-center nabla my-14">
-        Ideas without action are worthless.
+        Ideas without action are worthless
       </h1>
       <Projects projects={projects} />
       <h1 className="text-3xl md:text-5xl text-white text-center nabla my-14">
-        These are my weapons and tools of choice.
+        These are my weapons and tools of choice for fullstack{" "}
+        <span className="whitespace-nowrap">web2 & web3 </span>
+        development
       </h1>
       <Skills skills={skills} />
       <h1 className="text-3xl md:text-5xl text-white text-center nabla my-14">
-        Let's change the world together.
+        Let's change the world together
       </h1>
       <Form />
       <Footer />
