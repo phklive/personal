@@ -16,12 +16,12 @@ export const projects: project[] = [
     name: "Blockchain speaker at T-HUB Bali",
     title: "Speaker",
     images: ["/speaker.png", "/speaker2.png"],
-    text: "I organized and hosted multiple physical and digital talks in collaboration with Tokocrypto. Pushing for the mass adoption of Blockchain by spreading my passion and knowledge about this revolutionary technology. Around 300 people in total attended my talks as the last in date: 'Understanding blockchain & cryptocurrency investing.'",
+    text: "I organized and hosted multiple physical and digital talks in collaboration with Tokocrypto. Pushing for the mass adoption of Blockchain by spreading my passion and knowledge about this revolutionary technology. Around 300 people in total attended my latest talk: 'Understanding blockchain & cryptocurrency investing.'",
   },
   {
     name: "FiftyFifty's",
     title: "CTO",
     images: ["/ff1.png", "/ff2.png"],
-    text: "FiftyFifty's is a Web3 company offering lottery draws enabling users to use crypto to earn the physical products of their dreams. Fullstack web2 / web3 app and website integrated on the ethereum blockchain.",
+    text: "FiftyFifty's is a Web3 company offering lottery draws enabling users to use crypto to win the physical products of their dreams. Fullstack web2 / web3 app and website integrated on the ethereum blockchain.",
   },
 ];
