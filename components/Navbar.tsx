@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div className="flex flex-row items-center justify-center">
       <Image
-        src={"/logo.svg"}
+        src={"/logo2.png"}
         alt="logo"
-        height={80}
-        width={100}
+        height={200}
+        width={300}
         className="cursor-pointer self-center"
       />
     </div>

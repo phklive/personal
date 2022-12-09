@@ -13,7 +13,7 @@ const Values: React.FC<ValuesProps> = ({ values }) => {
   return (
     <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       {values.map((value) => (
-        <Value value={value} />
+        <Value value={value} key={value.title} />
       ))}
     </div>
   );

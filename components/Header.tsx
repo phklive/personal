@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <div className="flex flex-row py-10 justify-center w-11/12 mx-auto">
-        <div className="flex-1 flex flex-row justify-end">
+        <div className="flex-1 flex flex-row justify-end mb-4">
           <Image
             src={"/phk.jpg"}
             alt="phk"
